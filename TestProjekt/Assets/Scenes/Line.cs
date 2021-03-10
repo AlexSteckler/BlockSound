@@ -36,12 +36,12 @@ public class Line : MonoBehaviour
 
     void Update()
     {
-        
+        createLine();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        createLine();
+        
 
     }
 
