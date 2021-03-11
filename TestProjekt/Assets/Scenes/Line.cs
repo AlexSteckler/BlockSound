@@ -17,6 +17,8 @@ public class Line : MonoBehaviour
 
     public Transform o1, o2;
 
+    public bool triggerActive = false;
+
     void Start()
     {
         lineRenderer = gameObject.GetComponent<LineRenderer>();
@@ -36,13 +38,22 @@ public class Line : MonoBehaviour
 
     void Update()
     {
-        createLine();
+        
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        
-
+    public void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("block"))
+        {
+            triggerActive = true;
+            createLine();
+        }
+    }
+ 
+    public void OnTriggerExit(Collider other) {
+        if (other.CompareTag("block"))
+        {
+            triggerActive = false;
+        }
     }
 
     void createLine() {
