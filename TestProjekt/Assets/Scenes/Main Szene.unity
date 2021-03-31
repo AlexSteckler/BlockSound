@@ -1651,8 +1651,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bfb0a42388decd479e8ac25de0f28f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: "Willkommen bei BlockSound! Stelle die Slider der gr\xFCnen Bl\xF6cke nach
-    belieben ein, um verschiedene T\xF6ne zu erzeugen."
+  input: "Willkommen bei BlockSound! Stelle die Slider der  \"NoteBlocks\" nach belieben
+    ein, um verschiedene T\xF6ne zu erzeugen. Du kannst durch verschieben die Lautst\xE4rke
+    der einzelnen \"NoteBlocks\" \xE4ndern."
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   delay: 0.05
@@ -4131,7 +4132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &829229198
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8609,9 +8610,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bfb0a42388decd479e8ac25de0f28f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: " Mit dem Volume-Block kannst Du die Lautst\xE4rke \xE4ndern. Der Regler
-    stellt die Geschwindigkeit der T\xF6ne ein. Mit Deinem Mausrad kannst Du dich
-    im Raum bewegen. Viel Spa\xDF beim Musizieren!"
+  input: " Mit dem Volume-Block kannst Du die allgemeine  Lautst\xE4rke \xE4ndern.
+    Der Regler stellt die Geschwindigkeit der T\xF6ne ein. Mit Deinem Mausrad kannst
+    Du dich im Raum bewegen. Viel Spa\xDF beim Musizieren!"
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   delay: 0.05
