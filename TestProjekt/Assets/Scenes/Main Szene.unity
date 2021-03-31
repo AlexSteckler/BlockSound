@@ -206,7 +206,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 127
   m_WholeNumbers: 0
-  m_Value: 52
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -317,7 +317,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 127
   m_WholeNumbers: 0
-  m_Value: 40
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -883,7 +883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ValueText2: {fileID: 154778391}
-  valueVolume: 1
+  valueVolume: 0
 --- !u!114 &154778391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -916,7 +916,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 0
 --- !u!222 &154778392
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1044,7 +1044,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 46
+  m_Text: 0
 --- !u!222 &164688489
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1106,7 +1106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29d5b3ccf42acb418b0d75a2b8914b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  midiNote: 46
+  midiNote: 0
 --- !u!114 &175031827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29d5b3ccf42acb418b0d75a2b8914b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  midiNote: 52
+  midiNote: 0
 --- !u!114 &202983461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,7 +1844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29d5b3ccf42acb418b0d75a2b8914b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  midiNote: 40
+  midiNote: 0
 --- !u!114 &334165108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2234,14 +2234,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461374641}
-  m_LocalRotation: {x: 0, y: 0.86602545, z: 0, w: 0.49999994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.53, z: 0}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_Children:
   - {fileID: 271674802}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 120, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &461374647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7989d5ce03a352b4b9e004efd2d8ca5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tiltAngle: 59.99
+  tiltAngle: 35.68
   tiltAroundZ: 7.4
   tiltAroundX: 0
   angle: 120
@@ -2476,7 +2476,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 127
   m_WholeNumbers: 0
-  m_Value: 45
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -3361,7 +3361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29d5b3ccf42acb418b0d75a2b8914b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  midiNote: 12
+  midiNote: 0
 --- !u!1 &651985678
 GameObject:
   m_ObjectHideFlags: 0
@@ -3929,7 +3929,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 52
+  m_Text: 0
 --- !u!222 &820016128
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4132,7 +4132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &829229198
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4497,7 +4497,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 40
+  m_Text: 0
 --- !u!222 &853313866
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5528,7 +5528,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 45
+  m_Text: 0
 --- !u!222 &996658187
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5923,7 +5923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29d5b3ccf42acb418b0d75a2b8914b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  midiNote: 52
+  midiNote: 0
 --- !u!114 &1063832662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6504,7 +6504,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 127
   m_WholeNumbers: 0
-  m_Value: 46
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -6584,7 +6584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29d5b3ccf42acb418b0d75a2b8914b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  midiNote: 1
+  midiNote: 0
 --- !u!114 &1254237107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6856,7 +6856,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 52
+  m_Text: 0
 --- !u!222 &1322869354
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7078,7 +7078,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 127
   m_WholeNumbers: 0
-  m_Value: 52
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -7620,7 +7620,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 127
   m_WholeNumbers: 0
-  m_Value: 12
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -8261,7 +8261,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 12
+  m_Text: 0
 --- !u!1 &1642157901
 GameObject:
   m_ObjectHideFlags: 0
@@ -8610,9 +8610,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bfb0a42388decd479e8ac25de0f28f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  input: "Mit dem Volume-Block kannst Du die allgemeine Lautst\xE4rke \xE4ndern. Der
-    Regler stellt die Geschwindigkeit der T\xF6ne ein. Mit Deinem Mausrad kannst Du
-    dich im Raum bewegen. Viel Spa\xDF beim Musizieren!"
+  input: "Mit dem Volume-Block kannst Du die allgemeine Lautst\xE4rke \xE4ndern.
+    Der Regler stellt die Geschwindigkeit der T\xF6ne ein. Mit Deinem Mausrad kannst
+    Du dich im Raum bewegen. Viel Spa\xDF beim Musizieren!"
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   delay: 0.05
@@ -9424,7 +9424,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -9503,7 +9503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29d5b3ccf42acb418b0d75a2b8914b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  midiNote: 45
+  midiNote: 0
 --- !u!114 &1899581251
 MonoBehaviour:
   m_ObjectHideFlags: 0
